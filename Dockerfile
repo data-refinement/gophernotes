@@ -43,5 +43,5 @@ RUN set -x \
 # Set GOPATH.
 ENV GOPATH /go
 
-EXPOSE 8888
-CMD [ "jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0" ]
+#EXPOSE 8888
+#CMD [ "jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0" ]
